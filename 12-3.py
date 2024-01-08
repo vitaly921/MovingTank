@@ -18,7 +18,7 @@ def run_game():
 	clock = pygame.time.Clock()
 	
 	# получение изображения фона и задание его размера по размеру окна
-	image_background = pygame.image.load('background.jpg')
+	image_background = pygame.image.load('images/background.jpg')
 	image_background = pygame.transform.scale(image_background,
 		(length, width))
 
