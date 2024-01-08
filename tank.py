@@ -6,7 +6,7 @@ class Tank:
 		# задание экрана для вывода объекта
 		self.screen = screen
 		# загрузка изображения объекта и задание его размеров
-		self.image = pygame.image.load('tank.png')
+		self.image = pygame.image.load('images/tank.png')
 		# задание иконки окна с помощью изображения объекта
 		pygame.display.set_icon(self.image)
 		# задание размеров изображения объекта-танка
